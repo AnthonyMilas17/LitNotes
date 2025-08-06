@@ -1,0 +1,13 @@
+import QmlProject 1.1
+
+Project {
+    mainFile: "Main.qml"
+
+    // All files to include in the project
+    files: [
+        "Main.qml",
+        "main.cpp"
+    ]
+
+    // Optional: add any assets/resources here
+}
